@@ -20,7 +20,7 @@ public class CompanyServiceImpl implements CompanyService{
 
 	@Override
 	public CompanyBean login(CompanyBean param) {
-		
+		//rere
 		return null;
 	}
 
