@@ -9,5 +9,5 @@ import com.ship.web.services.CompanyService;
 @Controller
 public class CompanyController {
 	private static final Logger logger = LoggerFactory.getLogger(CompanyController.class);
-	@Autowired CompanyService shipService;
+	@Autowired CompanyService companyService;
 }
