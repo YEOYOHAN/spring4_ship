@@ -4,9 +4,8 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Data @Component
-public class CompanyDTO implements Serializable{
+public class UserDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
-	private String empno, ename, job, 
-	mgr, hireDate, sal, comm, deptno, dname, loc;
+	private String uid, uname, upw, age;
 }
