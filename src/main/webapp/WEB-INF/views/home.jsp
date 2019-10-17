@@ -37,7 +37,8 @@
     <link href="<%=application.getContextPath()%>/resources/css/signin.css" rel="stylesheet">
 </head>
 <body class="text-center">
-	<form class="form-signin">
+	<form id="form_join" class="form-signin">
+	  <div class="form-Checkout">
 	  <img class="mb-4" src="<%=application.getContextPath() %>/resources/img/bootstrap-solid.svg" alt="" width="72" height="72">
 	  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 	  <label for="inputEmail" class="sr-only">Email address</label>
@@ -51,6 +52,7 @@
 	  </div>
 	  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 	  <p class="mt-5 mb-3 text-muted">© 2017-2019</p>
+	  </div>
 	</form>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
