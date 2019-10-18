@@ -18,7 +18,7 @@ app = (()=>{
 			$.getScript(authjs)
 		)
 		.done(()=>{
-			auth.onCreate()			
+			auth.onCreate()		
 		}
 		)
 		.fail(()=>{			
@@ -26,6 +26,6 @@ app = (()=>{
 		}
 		)
 	}
-	return {run:run}
+	return {run}
 		
 })();
